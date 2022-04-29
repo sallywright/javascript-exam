@@ -27,3 +27,19 @@
   margin-top: 50px;
   color: #333;
 }
+
+.container #output{
+  display: flex;
+  justify-content: center ;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.container #output h1{
+  text-transform: uppercase;
+  background-color: rgba(118, 180, 111, 0.67);
+}
+
+.container #output h2{
+  color: rgba(2, 40, 2, 0.689);
+}
