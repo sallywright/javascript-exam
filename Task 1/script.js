@@ -32,10 +32,10 @@ const displayWeight = (measurements) => {
     const weightInOz = document.createElement('h2');
     const weightInKg = document.createElement('h2');
 
-    weightInKg.textContent = weightInKgValue + " Kg";
-    weightInG.textContent = weightInGValue + " g";
-    weightInOz.textContent = weightInOzValue + " Oz";
-    weightInLb.textContent = weightInLbValue + " Lb";
+    weightInKg.textContent = Math.floor(weightInKgValue * 100) / 100 + " Kg";
+    weightInG.textContent = Math.floor(weightInGValue * 100) / 100 + " g";
+    weightInOz.textContent = Math.floor(weightInOzValue * 100) / 100 + " Oz";
+    weightInLb.textContent = Math.floor(weightInLbValue * 100) / 100 + " Lb";
 
     outputField.append(weightInKg, weightInLb, weightInG, weightInOz);
 
