@@ -53,9 +53,23 @@
 }
 
 .output-cointainer #output {
-  width: 80%;
+  width: 50%;
   margin-top: 25px;
   padding: 30px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.532);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.output-cointainer #output div{
+  
+  width: 80%;
+  height: 100%;
+
+
+}
+.output-cointainer #output div img{
+  width: 100%;
 }
