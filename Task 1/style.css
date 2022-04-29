@@ -52,6 +52,13 @@ form {
   color: #fff;
 }
 
+#output{
+  padding: 2.5rem 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #000;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .headline {
